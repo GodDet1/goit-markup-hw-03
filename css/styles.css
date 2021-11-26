@@ -50,11 +50,18 @@ ul {
   padding: 0%;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* logo */
 
 .logo {
-  color: var(--nav_logo-color);
+  margin-right: 93px;
 
+  color: var(--nav_logo-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 26px;
@@ -67,8 +74,35 @@ ul {
 }
 
 /* Header */
+.nav {
+  display: flex;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nav-bar li {
+  margin-right: 50px;
+}
+
+.nav-bar li:last-child {
+  margin-right: 0px;
+}
 
 .nav-link {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   color: var(--headline-color);
 
   font-weight: 500;
@@ -78,11 +112,20 @@ ul {
 }
 
 .contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   color: var(--text-color);
   text-decoration: none;
 }
 
+.contact:last-child {
+  margin-left: 50px;
+}
+
 .nav-contacts {
+  margin-left: auto;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -105,10 +148,17 @@ ul {
 /* Hero */
 
 .hero {
+  height: 600px;
+
   background-color: var(--bg-alternate-color);
+  text-align: center;
 }
 
 .hero h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 200px;
+
   color: #ffffff;
 
   font-weight: 900;
@@ -117,7 +167,15 @@ ul {
   text-transform: uppercase;
 }
 
+.hero-button {
+  margin-top: 40px;
+  padding-bottom: 200px;
+}
+
 .hero-button button {
+  width: 200px;
+  height: 50px;
+
   color: var(--main-color);
   background-color: var(--accent-color);
 
@@ -134,6 +192,27 @@ ul {
 }
 
 /* About us */
+.us {
+  text-align: left;
+}
+.us div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.us-benefits {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.us-benefits li {
+  margin-top: 94px;
+  margin-right: 30px;
+}
+.us-benefits li:last-child {
+  margin-right: 0px;
+}
+
 .us-headline {
   color: var(--headline-color);
 
