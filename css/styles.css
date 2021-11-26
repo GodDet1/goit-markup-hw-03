@@ -56,6 +56,11 @@ ul {
   padding-right: 15px;
 }
 
+.centered {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* logo */
 
 .logo {
@@ -77,9 +82,6 @@ ul {
 .nav {
   display: flex;
   align-items: center;
-
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .nav-bar {
@@ -192,12 +194,9 @@ ul {
 }
 
 /* About us */
+
 .us {
   text-align: left;
-}
-.us div {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .us-benefits {
@@ -214,8 +213,10 @@ ul {
 }
 
 .us-headline {
-  color: var(--headline-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
 
+  color: var(--headline-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -224,28 +225,68 @@ ul {
 }
 
 .us-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 270px;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: calc(24 / 14);
 }
 
 /* Our work */
+.ourwork {
+  margin-top: 94px;
+  padding-bottom: 94px;
+
+  text-align: center;
+}
 
 .ourwork h2 {
-  color: var(--headline-color);
+  margin-top: 0px;
+  margin-bottom: 50px;
 
+  color: var(--headline-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
+}
+
+.ourwork-allign {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ourwork-allign li {
+  margin-right: 30px;
+}
+
+.ourwork-allign li:nth-child(3n) {
+  margin-right: 0px;
 }
 
 /* Team */
+.team {
+  background-color: var(--bg-color);
+  text-align: center;
+}
+.team-work {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 .team h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--headline-color);
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
+}
+.team-block {
+  margin-right: 30px;
 }
 
 .employee {
