@@ -161,6 +161,8 @@ header {
 /* Hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--bg-alternate-color);
   text-align: center;
 }
@@ -168,7 +170,6 @@ header {
 .hero h1 {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 200px;
 
   color: #ffffff;
 
@@ -180,7 +181,6 @@ header {
 
 .hero-button {
   margin-top: 30px;
-  padding-bottom: 200px;
 }
 
 .hero-button button {
