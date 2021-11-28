@@ -68,6 +68,10 @@ ul {
   padding-bottom: 94px;
 }
 
+img {
+  display: block;
+}
+
 /* logo */
 
 .logo {
@@ -111,10 +115,8 @@ header {
 
 .nav-link {
   display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
   color: var(--headline-color);
 
@@ -125,8 +127,8 @@ header {
 }
 
 .contact {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
   color: var(--text-color);
   text-decoration: none;
@@ -183,7 +185,7 @@ header {
   margin-top: 30px;
 }
 
-.hero-button button {
+.hero-button {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 22px;
